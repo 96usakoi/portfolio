@@ -3,12 +3,12 @@
     <ul>
       <li>
         <NuxtLink to="/about">
-          About
+          Menu link 1
         </NuxtLink>
       </li>
       <li>
         <NuxtLink to="/illust">
-          Illust
+          Menu link 2
         </NuxtLink>
       </li>
     </ul>

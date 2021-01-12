@@ -3,14 +3,27 @@
     <div>
       <Logo />
       <h1 class="title">
-      b
       </h1>
 
       <div>
         <Menu />
       </div>
-      <div class="links">
-       u
+      <div class="illust bg-gray-100 rounded-xl p-8">
+        <div class="illust-items">
+          <div class="item">
+            <img src="~/assets/images/illust/item_thumb01.jpg">
+          </div>
+          <div class="item">
+            <img src="~/assets/images/illust/item_thumb01.jpg">
+          </div>
+                    <div class="item">
+          <img src="~/assets/images/illust/item_thumb01.jpg">
+          </div>
+          <div class="item">
+            <img src="~/assets/images/illust/item_thumb01.jpg">
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
@@ -55,15 +68,8 @@ export default Vue.extend({})
   letter-spacing: 1px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.illust-items {
+  max-width: 300px;
 }
 
-.links {
-  padding-top: 15px;
-}
 </style>
