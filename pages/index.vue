@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container relative">
     <div>
       <h1 class="title">
       about
@@ -9,25 +9,24 @@
         <Menu />
       </div>
 
-    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-      <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" style="background:#000;" src="/test.jpg" alt="" width="384" height="512">
+    <figure class="my-10 md:flex bg-gray-100 rounded-xl p-8 md:p-0 border-solid border-2 border-gray-50 overflow-hidden">
+      <img class="p-2 w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto bg-white" src="@/assets/images/common/profile.jpg" alt="" width="384" height="512">
         <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
           <blockquote>
             <p class="text-lg font-semibold">
-              title
+              Iori Nakaji
+            </p>
+            <p class="text-gray-500 text-xs">
+              @96usa_koi
             </p>
           </blockquote>
           <figcaption class="font-medium">
-            <div class="text-cyan-600">
-              text
-            </div>
-            <div class="text-gray-500">
-              text
+            <div class="text-cyan-600 text-sm">
+              Webデザイナー
             </div>
           </figcaption>
         </div>
       </figure>
-
     </div>
   </div>
 </template>
@@ -39,11 +38,6 @@ export default Vue.extend({})
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -52,7 +46,6 @@ export default Vue.extend({})
   align-items: center;
   text-align: center;
 }
-
 .title {
   font-family:
     'Quicksand',
