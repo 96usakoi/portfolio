@@ -11,16 +11,16 @@
       <div class="illust bg-gray-100 rounded-xl p-8">
         <div class="illust-items">
           <div class="item">
-            <img src="~/assets/images/illust/item_thumb01.jpg">
+            <img src="@/assets/images/illust/item_thumb01.jpg">
           </div>
           <div class="item">
-            <img src="~/assets/images/illust/item_thumb01.jpg">
+            <img src="@/assets/images/illust/item_thumb01.jpg">
           </div>
                     <div class="item">
-          <img src="~/assets/images/illust/item_thumb01.jpg">
+          <img src="@/assets/images/illust/item_thumb01.jpg">
           </div>
           <div class="item">
-            <img src="~/assets/images/illust/item_thumb01.jpg">
+            <img src="@/assets/images/illust/item_thumb01.jpg">
           </div>
 
         </div>

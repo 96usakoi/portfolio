@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content-bg bg-gradient-to-r from-black to-blue-500">
     <Nuxt />
   </div>
 </template>
@@ -59,4 +59,21 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.content-bg{
+  position: relative;
+}
+.content-bg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .08;
+  background-size: 70% auto;
+  background-image: url('~assets/images/common/background.png');
+}
+
 </style>
